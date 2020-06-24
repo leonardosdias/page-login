@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
 
-    <script src="js/script.js" defer></script>
+    <script src="js/index.js" defer></script>
 </head>
 
 <body>
 
-    <form action="">
+    <form>
         <div class="img">
             <img src="img/logo-128px.png">
         </div>
@@ -23,19 +23,19 @@
         </h2>
 
         <div class="input">
-            <input id="email" name="email" required type="email" />
-            <label for="email">Email</label>
+            <input id="usuario" name="usuario" type="text" required/>
+            <label for="usuario">Usuário</label>
             <span class="error"></span>
         </div>
 
 
         <div class="input">
-            <input id="senha" name="senha" required type="password" />
+            <input id="senha" name="senha" type="password" required/>
             <label for="senha">Senha</label>
             <span class="error"></span>
         </div>
 
-        <button type="submit">ENTRAR</button>
+        <button type="submit" name="entrar" value="Entrar">ENTRAR</button>
 
     </form>
 </body>
